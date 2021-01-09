@@ -1,0 +1,215 @@
+                       /* HEADER BAR  */
+.bg-color{ 
+    background-color: #292929;
+}
+.brand-name-header, .menu-name{
+    color: white;
+}
+.brand-name-header:hover, .menu-name:hover{
+    color: #FF7900;
+    transition: .4s;
+}
+.brand-name-header{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
+.menu-name{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+}
+                        /* MAIN BODY */
+.row-main{
+    /* border: 2px solid black; */
+    margin-top: 130px;
+    margin-bottom: 180px;
+}
+.col-name, .col-search{
+    /* border: 2px solid cornflowerblue */
+}
+.col-name{
+    /* margin-left: -60px; */
+    padding-left: 50px;
+}
+.col-search{
+    /* margin-left: 60px; */
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.brand-name-main{
+    font-family: 'Cairo', sans-serif;
+    color: #ff7900;
+    font-size: 60px;
+}
+.brand-tag-main{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.brand-label-main{
+    font-family: 'Montserrat', sans-serif;
+    color: #ff7900;
+    font-size: 20px;
+}
+.btn-outline{
+    color: #FF7900;
+    border: 1px solid #FF7900;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn-outline-icon{
+    color: #FF7900;
+    border: 1px solid #FF7900;
+}
+.btn-outline:hover, .btn-outline-icon:hover{
+    color: white;
+    background-color: #ff7900;
+}
+
+                        /* SERVICE WRAPPER*/
+
+.service-container{
+    background-color: #292929;
+    border: 0px solid white;
+}
+.service{
+    /* border: 1px solid tomato;*/
+}
+.service-dining, .service-online, .service-delivery{
+    
+    color: #FF7900;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.service-dining{
+    
+}
+.service-delivery{
+    
+}
+.service-online{
+    
+}
+.service-dining-head, .service-delivery-head, .service-online-head{
+    font-family: 'Cairo';
+    font-size: 25px;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 12px;
+}
+.service-dining-tag, .service-delivery-tag, .service-online-tag{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-left: 20px;
+    padding-right: 35px;
+    font-size: 20px;
+}
+.btn-for-booking, .btn-for-menu{
+    margin-left: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+}
+
+.locate-row{
+    /* border: 1px solid #FF7900; */
+}
+.locate-col-1, .locate-col-2{
+    /* border: 1px dashed black; */
+    
+}
+.locate-container{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.embed{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+}
+.locate-col-1-head{
+    font-family: 'Cairo', sans-serif;
+    padding-top: 20px;
+}
+.locate-col-1-tag{
+    font-family: 'Montserrat', sans-serif;
+}
+/* MEDIA QUERY */
+
+
+/* FOR SCREEN > 1200px*/
+@media (min-width: 1200px){
+    
+}
+/* FOR SCREEN BETWEEN 992 AND 1199 */
+@media (max-width: 1199px) and (min-width: 992px){
+    
+}
+/* FOR SCREEN BETWEEN 991 AND 768 */
+@media (max-width: 991px) and (min-width: 768px){
+    .row-main{
+        margin-top: 70px;
+    }
+    .col-name{
+        margin-bottom: 140px;
+    }
+    .col-search{
+
+    }
+}
+/* FOR SCREEN BETWEEN 767 AND 576 */
+@media (max-width: 767px) and (min-width: 576px) {
+    .row-main{
+        margin-top: 60px;
+    }
+    .col-name{
+        margin-bottom: 100px;
+    }
+    .col-search{
+
+    }
+}
+/* FOR SCREEN BETWEEN 575 AND 0 */
+@media(max-width: 575px){
+    .row-main{
+        margin-top: 60px;
+    }
+    .col-name{
+        margin-bottom: 100px;
+        padding-left: 25px;
+    }
+    .col-search{
+
+    }
+    .brand-name-main{
+        font-size: 40px;
+    }
+    .brand-tag-main{
+        font-size: 25px;
+    }
+    .brand-name-header{
+        font-size: 22px;
+    }
+    .btn-outline{
+        font-size: 17px;
+    }
+    .brand-label-main{
+        font-size: 17px;
+    }
+    .col-search{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .service-dining, .service-online, .service-delivery{
+        padding-left: 0px;
+    }
+    .locate-container{
+        margin-top: 60px;
+    }
+}
