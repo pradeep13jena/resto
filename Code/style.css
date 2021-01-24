@@ -76,6 +76,8 @@
 }
 .service{
     /* border: 1px solid tomato;*/
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 .service-dining, .service-online, .service-delivery{
     
@@ -106,7 +108,7 @@
     color: white;
     padding-left: 20px;
     padding-right: 35px;
-    font-size: 20px;
+    font-size: 17px;
 }
 .btn-for-booking, .btn-for-menu{
     margin-left: 20px;
@@ -116,6 +118,7 @@
     padding-bottom: 8px;
     font-size: 15px;
 }
+                         /* LOCATE */
 
 .locate-row{
     /* border: 1px solid #FF7900; */
@@ -136,10 +139,96 @@
 .locate-col-1-head{
     font-family: 'Cairo', sans-serif;
     padding-top: 20px;
+    font-size: 30px;
 }
 .locate-col-1-tag{
     font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
 }
+
+
+                     /* FOOTER */
+
+.row-footer{
+    background-color: #292929;
+    /* border: 2px solid white; */
+}
+.col-footer{
+    /* border: 1px dashed grey; */
+}
+.footer-logo{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}
+.footer-social, .footer-contact, .footer-about{
+    color: #FF7900;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-family: 'Cairo';
+    font-size: 24px;
+}
+.social-link, .contact-link{
+    font-size: 15px;
+    margin-bottom: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.reddit{
+    margin-bottom: 40px;
+}
+.social-link > a, .contact-link > a{
+    color: white;
+    text-decoration: none;
+}
+.footer-about-head{
+    font-size: 23px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.footer-about-tag{
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 90px;
+}
+                /*----END OF MAIN-PAGE-----*/
+                /*-------------------------*/
+                /* START OF MAIN-MENU PAGE */
+
+.main-menu-text-head{
+    color: #ff7900;
+    font-size: 40px;
+    font-family: 'Cairo';
+    margin-top: 20px;
+}
+.main-menu-text-tag{
+    font-size: 25px;
+    font-family: 'Dosis';
+    color: black;
+    margin-top: -8px;
+    margin-bottom: 20px;
+}
+.likhit-head{
+    font-size: 40px;
+    font-family: 'Cairo';
+    color: #ff7900;
+    margin-top: 20px;
+}
+.likhit-tag{
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.drawing-row{
+    margin-bottom: 40px;
+}
+.drawing-col{
+    margin-bottom: 30px;
+}
+
 /* MEDIA QUERY */
 
 
@@ -174,6 +263,9 @@
     .col-search{
 
     }
+    .footer-logo{
+        display: none;
+    }
 }
 /* FOR SCREEN BETWEEN 575 AND 0 */
 @media(max-width: 575px){
@@ -182,7 +274,7 @@
     }
     .col-name{
         margin-bottom: 100px;
-        padding-left: 25px;
+        padding-left: 10px;
     }
     .col-search{
 
@@ -191,7 +283,7 @@
         font-size: 40px;
     }
     .brand-tag-main{
-        font-size: 25px;
+        font-size: 20px;
     }
     .brand-name-header{
         font-size: 22px;
@@ -209,7 +301,32 @@
     .service-dining, .service-online, .service-delivery{
         padding-left: 0px;
     }
+    .service-dining-tag, .service-online-tag, .service-delivery-tag{
+        font-size: 15px;
+    }
     .locate-container{
         margin-top: 60px;
     }
+    .footer-logo{
+        display: none;
+    }
+    .service-dining, .service-delivery, .service-online{
+        margin-bottom: -20px;
+    }
+    .col-footer{
+        margin-top: -16px;
+        margin-bottom: 0px;
+    }
+    .likhit-head{
+        font-size: 30px;
+    }
+    .likhit-tag{
+        font-size: 20px;
+    }
 }
+
+/* background-color: white;
+    margin-right: 90px;
+    height: 2px;
+    border-radius: 20px;
+    margin-top: -11px; */
